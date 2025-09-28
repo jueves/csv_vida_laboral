@@ -1,6 +1,6 @@
 # Vida Laboral PDF to CSV Converter
 
-Converts Spanish Government Seguridad Social PDF reports on vida laboral to CSV format. Extracts employment history tables from multi-page PDFs and processes them into structured CSV data.
+Converts Spanish Government's Seguridad Social PDF reports on vida laboral to CSV format. Extracts employment history tables from multi-page PDFs and processes them into structured CSV data.
 
 ## Installation
 
@@ -11,10 +11,10 @@ pip install -r requirements.txt
 ## Usage
 
 ```bash
-python pdf_to_csv.py archivo.pdf
+python pdf_to_csv.py vida_laboral.pdf
 ```
 
-This will generate an `archivo.csv` file in the same directory.
+This will generate an `vida_laboral.csv` file in the same directory.
 
 ## Features
 
