@@ -46,5 +46,4 @@ The generated CSV contains the following columns:
 ## Requirements
 
 - Python 3.6+
-- PDF files must be digitally generated (not scanned)
 - Tables must contain "SITUACIÓN/ES" in the first row to be processed
