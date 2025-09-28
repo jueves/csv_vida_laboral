@@ -11,7 +11,7 @@ pip install -r requirements.txt
 ## Usage
 
 ```bash
-python pdf_to_csv_optimized.py archivo.pdf
+python pdf_to_csv.py archivo.pdf
 ```
 
 This will generate an `archivo.csv` file in the same directory.
@@ -22,7 +22,7 @@ This will generate an `archivo.csv` file in the same directory.
 - **Smart table validation**: Only processes tables containing "SITUACIÓN/ES" in the first row
 - **Automatic row reconstruction**: Uses the DÍAS column to identify and combine split rows
 - **Manual headers**: Applies standardized column names for consistency
-- **CSV output**: Generates clean, structured CSV files ready for analysis
+- **CSV output**: Generates clean, structured CSV files ready for filtering and analysis
 
 ## Output Columns
 
@@ -40,10 +40,5 @@ The generated CSV contains the following columns:
 
 ## Dependencies
 
-- `camelot-py[cv]`: For PDF table extraction with visual analysis
+- `camelot-py`: For PDF table extraction using stream method
 - `pandas`: For data manipulation and CSV export
-
-## Requirements
-
-- Python 3.6+
-- Tables must contain "SITUACIÓN/ES" in the first row to be processed
